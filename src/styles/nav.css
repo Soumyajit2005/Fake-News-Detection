@@ -1,0 +1,25 @@
+nav{
+    background-color: #2C1E4A;
+    height: 8vh;
+}
+ul{
+    display: flex;
+    font-size: 2rem;
+    position: sticky;
+    margin-left: 50vw;
+}
+
+li{
+    margin: 0.5vw 0vw 1vw 2vw ;
+    list-style: none;
+    /* background-color: white; */
+    /* border: 1px solid black; */
+
+    padding: 8px;
+    border-radius: 19px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
