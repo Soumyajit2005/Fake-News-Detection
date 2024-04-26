@@ -26,14 +26,14 @@ li{
     margin-left: 82px;
 }
 
-a{
+.links{
     text-decoration: none;
     color: white;
     transition: color 0.3s ease;
     font-weight: 500;
 }
 
-a:hover{
+.links:hover{
     color: #f39c12;
 }
 
