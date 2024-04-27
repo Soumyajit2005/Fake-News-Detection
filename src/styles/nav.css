@@ -1,15 +1,24 @@
 nav{
-    background-color: #2C1E4A;
+    background-color: #00071b;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding: 10px 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    height: 10vh;
+    width: 100vw;
+    position: sticky;
 }
+
+nav img{
+    width: 10vw;
+    position: absolute;
+    left: 2vw;
+}
+
 ul{
     display: flex;
      font-size: 2rem;
-    position: sticky;
     /* margin-left: 50vw; */
     margin-right: 210px;
     /* width: 80%;  */
@@ -26,14 +35,14 @@ li{
     margin-left: 82px;
 }
 
-.links{
+.link{
     text-decoration: none;
     color: white;
     transition: color 0.3s ease;
     font-weight: 500;
 }
 
-.links:hover{
+.link:hover{
     color: #f39c12;
 }
 
